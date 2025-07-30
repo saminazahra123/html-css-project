@@ -1,0 +1,630 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.container{
+    margin: 0 auto;
+}
+.logo{
+    font-size: 35px;
+}
+.logo a{
+    color: black;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.button a{
+    color: black;
+    text-decoration: none;
+ }
+/* .links a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 4px;
+    background-color: rgb(155, 17, 17);
+    border-radius: 3px;
+} */
+.links a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.links{
+    gap: 20;
+}
+/* .links a .line hr{
+    border: 2px solid red;
+    width: 50px;
+} */
+/* .button .fa-magnifying-glass{
+    margin-left: 120px;
+    font-size: 23px;
+    margin-right: 3px;
+} */
+.button input{
+    width: 150px;
+    border-radius: 15px;
+    padding: 4px;
+    margin-right: 80px;
+    /* border: 1px solid black; */
+}
+/* list poton */
+.training{
+    position: relative;
+    display: inline-block;
+}
+
+.list{
+    display: none;
+    position: absolute;
+    background-color: rgb(223, 139, 153);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.list a:hover {
+    background-color: pink;
+}
+.training:hover .list {
+    display: block;
+}
+/* ------ */
+.training-1{
+    position: relative;
+    display: inline-block;
+}
+
+.list-1{
+    display: none;
+    position: absolute;
+    background-color: rgb(223, 139, 153);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.list-1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.list-1 a:hover {
+    background-color: pink;
+}
+.training-1:hover .list-1 {
+    display: block;
+}
+/* ------ */
+.main{
+    /* padding: 19PX 20PX 19px 25px; */
+    background-color: rgb(235, 235, 235);
+    justify-content: space-evenly;
+}
+.main h2{
+    font-size: 30px;
+    padding: 20px 0px 10px 40px;
+}
+.main p{
+    font-size: 15px;
+    padding: 0px 0px 40px 40px;
+    font-size: 20px;
+}
+.third-box{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.third-left ul{
+    /* margin-left: 60px; */
+    font-size: 20px;
+    padding: 10px 0px 0px 100px;
+}
+.third-left ul li a{
+    text-decoration: none;
+}
+.third-left ul li a:hover{
+    text-decoration: underline;
+}
+.third-left h3{
+    font-size: 30px;
+    /* margin-left: 17px; */
+    padding-left: 40px;
+}
+.third-left h5{
+    font-size: 20px;
+    padding-left: 40px;
+}
+.third-right{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.third-right p{
+    font-size: 20px;
+}
+.third-right h5 a{
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    /* color: rgb(63, 63, 243); */
+}
+.third-right h5 a:hover{
+    text-decoration: underline;
+}
+.fourth-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.fourth-left{
+    border: 1px solid rgb(192, 192, 192);
+    padding: 5px;
+}
+.fourth-left:hover{
+    border: 3px solid navy;
+}
+.fourth-center{
+    /* margin-left: 30px; */
+    border: 1px solid rgb(192, 192, 192);
+    padding: 5px;
+}
+.fourth-center:hover{
+    border: 3px solid navy;
+}
+.fourth-right{
+    /* margin-left: 30px; */
+    border: 1px solid rgb(192, 192, 192);
+    padding: 10px;
+}
+.fourth-right:hover{
+    border: 3px solid navy;
+}
+h1{
+    margin-left: 40px;
+}
+.fifth-main{
+    padding: 10px 70px 90px 70px;
+}
+.fifth-main p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.fifth-main a{
+    text-decoration: none;
+}
+.fifth-main a:hover{
+    text-decoration: underline;
+}
+.links-main img{
+    width: 170px;
+    height: 150px;
+    object-fit: contain;
+    margin-left: 80px;
+    justify-content: space-around;
+}
+.last-main{
+    padding: 35px;
+}
+.last-main ul{
+    padding-left: 45px;
+    font-size: 20px;
+}
+.last-main p{
+    font-size: 20px;
+}
+.contact{
+    padding: 40px;
+}
+.contact p{
+    font-size: 24px;
+}
+.contact a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(194, 16, 16);
+    color: white;
+}
+.foo-left h2{
+    margin-left: 40px;
+}
+.foo-left p{
+    margin-left: 40px;
+}
+.foo-left button{
+    background-color: red;
+    border-radius: 15px;
+    padding: 8px;
+    border: none;
+    color: white;
+    margin-left: 70px;
+}
+.foo-left button:hover{
+    background-color: rgb(139, 17, 17);
+    padding: 9px;
+}
+.foo-right{
+    margin-left: 80px;
+}
+.Follow{
+    display: flex;
+    /* padding: 30px; */
+    /* justify-content: space-evenly; */
+}.linkdin{
+    padding: 20px;
+}
+.instagram{
+    padding: 20px;
+}
+.youtube{
+    padding: 20px;
+}
+.twitter{
+    padding: 20px;
+}
+.facebook{
+    padding: 20px;
+}
+.fa-linkedin{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.fa-instagram{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.fa-youtube{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.fa-square-x-twitter{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.fa-facebook{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.last-footer{
+    background-color: rgb(126, 17, 17);
+    color: white;
+    font-size: 13px;
+    padding: 20px;
+}
+.last-footer a{
+    color: white;
+}
+.Follow a{
+    color: white;
+    text-decoration: none;
+}
+.Follow a:hover{
+    text-decoration: underline;
+}
+.bar{
+    display: none;
+}
+@media screen and  (min-width:230px) and (max-width:790px){
+    .bar{
+        display: flex;
+    }
+    .fa-bars{
+        display: flex;
+        font-size: 30px;
+        color: black;
+        margin-left: 10px;
+    }
+    .button input{
+        width: 120px;
+        margin-right: 0px;
+    }
+    .links{
+        display: none;
+    }
+    .main{
+        background-color: none;
+    }
+    .third-box{
+        flex-direction: column;
+    }
+    .fourth-main{
+        flex-direction: column;
+        justify-content: none;
+    }
+    .third-left h3{
+        padding-left: 10px;
+    }
+    .third-left h5{
+        padding-left: 16px;
+    }
+    .third-left ul li a{
+        padding-left: 20px;
+    }
+    .fourth-main img{
+        display: none;
+    }
+    .fourth-main p{
+        font-size: 20px;
+    }
+    .fourth-left{
+        border: none;
+        margin-bottom: 30px;
+    }
+    .left-top{
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .left-top h2{
+        margin-bottom: 20px;
+    }
+    .fourth-left:hover{
+        border: none;
+    }
+    .fourth-center{
+        border: none;
+    }
+    .center-top{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .center-top h2{
+        margin-bottom: 20px;
+    }
+    .fourth-center:hover{
+        border: none;
+    }
+    .fourth-right{
+        border: none;
+    }
+    .right-top{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .right-top h2{
+        margin-bottom: 20px;
+    }
+    .fourth-right:hover{
+        border: none;
+    }
+    .links-main br{
+        display: none;
+        flex-wrap: wrap;
+    }
+    .links-main h2{
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .links-main img{
+        width: 130px;
+        height: 110px;
+        object-fit: contain;
+        margin-left: 15px;
+        justify-content: space-evenly;
+    }
+    .footer{
+        flex-direction: column;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    pre{
+        display: none;
+    }
+    .Follow{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .foo-right{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .foo-right h2{
+        margin-left: 50px;
+        font-size: 30px;
+    }
+    .foo-left h2{
+        font-size: 30px;
+        font-weight: 40px;
+    }
+    .foo-left p{
+        font-size: 20px;
+    }
+    .foo-left button{
+        margin-bottom: 40px;
+        margin-left: 150px;
+        padding: 14px;
+        width: 100px;
+    }
+    .twitter{
+        display: none;
+    }
+    .facebook{
+        display: none;
+    }
+    .linkdin{
+        margin-left: 30px;
+    }
+    .fa-linkedin{
+        margin-left: 10px;
+    }
+    .fa-instagram{
+        margin-left: 10px;
+    }
+    .fa-youtube{
+        margin-left: 10px;
+    }
+}
+@media screen and  (min-width:790px) and (max-width:1150px){
+    .bar{
+        display: flex;
+    }
+    .fa-bars{
+        display: flex;
+        font-size: 35px;
+        color: black;
+        margin-left: 10px;
+    }
+    .button input{
+        width: 120px;
+        margin-right: 0px;
+    }
+    .links{
+        display: none;
+    }
+    .main{
+        background-color: none;
+    }
+    .third-box{
+        flex-direction: column;
+    }
+    .fourth-main{
+        flex-direction: column;
+        justify-content: none;
+    }
+    .third-left h3{
+        padding-left: 10px;
+    }
+    .third-left h5{
+        padding-left: 16px;
+    }
+    .third-left ul li a{
+        padding-left: 20px;
+    }
+    .fourth-main img{
+        display: none;
+    }
+    .fourth-main p{
+        font-size: 20px;
+    }
+    .fourth-left{
+        border: none;
+        margin-bottom: 30px;
+    }
+    .left-top{
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .left-top h2{
+        margin-bottom: 20px;
+    }
+    .fourth-left:hover{
+        border: none;
+    }
+    .fourth-center{
+        border: none;
+    }
+    .center-top{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .center-top h2{
+        margin-bottom: 20px;
+    }
+    .fourth-center:hover{
+        border: none;
+    }
+    .fourth-right{
+        border: none;
+    }
+    .right-top{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .right-top h2{
+        margin-bottom: 20px;
+    }
+    .fourth-right:hover{
+        border: none;
+    }
+    .links-main br{
+        display: none;
+        flex-wrap: wrap;
+    }
+    .links-main h2{
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .links-main img{
+        width: 130px;
+        height: 110px;
+        object-fit: contain;
+        margin-left: 15px;
+        justify-content: space-evenly;
+    }
+    .footer{
+        flex-direction: column;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    pre{
+        display: none;
+    }
+    .Follow{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .foo-right{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .foo-right h2{
+        margin-left: 50px;
+        font-size: 30px;
+    }
+    .foo-left h2{
+        font-size: 30px;
+        font-weight: 40px;
+    }
+    .foo-left p{
+        font-size: 20px;
+    }
+    .foo-left p br{
+        display: none;
+    }
+    .foo-left button{
+        margin-bottom: 40px;
+        margin-left: 150px;
+        padding: 14px;
+        width: 100px;
+    }
+    .linkdin{
+        margin-left: 30px;
+    }
+    .fa-linkedin{
+        margin-left: 10px;
+    }
+    .fa-instagram{
+        margin-left: 10px;
+    }
+    .fa-youtube{
+        margin-left: 10px;
+    }
+}

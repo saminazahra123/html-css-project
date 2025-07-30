@@ -1,0 +1,1042 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.container{
+    margin: 0 auto;
+}
+.logo{
+    font-size: 35px;
+}
+.fa-bars{
+    display: none;
+}
+.bar{
+    display: none;
+}
+.logo a{
+    color: black;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+/* .links a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 4px;
+    background-color: rgb(155, 17, 17);
+    border-radius: 3px;
+} */
+.links a{
+    display: flex;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.links{
+    gap: 20;
+}
+/* .links a .line hr{
+    border: 2px solid red;
+    width: 50px;
+} */
+/* .button .fa-magnifying-glass{
+    margin-left: 120px;
+    font-size: 23px;
+    margin-right: 3px;
+} */
+.button a{
+    color: black;
+    text-decoration: none;
+ }
+.button input{
+    width: 150px;
+    border-radius: 15px;
+    padding: 4px;
+    margin-right: 80px;
+    /* border: 1px solid black; */
+}
+/* list poton */
+.training{
+    position: relative;
+    display: inline-block;
+}
+
+.list{
+    display: none;
+    position: absolute;
+    background-color: rgb(223, 139, 153);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.list a:hover {
+    background-color: pink;
+}
+.training:hover .list {
+    display: block;
+}
+/* ------ */
+.training-1{
+    position: relative;
+    display: inline-block;
+}
+
+.list-1{
+    display: none;
+    position: absolute;
+    background-color: rgb(223, 139, 153);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.list-1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.list-1 a:hover {
+    background-color: pink;
+}
+.training-1:hover .list-1 {
+    display: block;
+}
+.first-main{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+.first-main p{
+    font-size: 20px;
+}
+.head{
+    padding-left: 20px;
+}
+.second-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(235, 235, 235);
+}
+.second-main a{
+    text-decoration: none;
+    color: rgb(3, 32, 95);
+}
+.second-main a:hover{
+    text-decoration: underline;
+}
+.box-1{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-1 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-1{
+    text-align: center;
+}
+.box-1:hover{
+    border: 2px solid gray;
+}
+.bottom-1 p{
+    font-size: 20px;
+}
+
+.box-2{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-2 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-2{
+    text-align: center;
+}
+.box-2:hover{
+    border: 2px solid gray;
+}
+.bottom-2 p{
+    font-size: 20px;
+}
+
+.box-3{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-3 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-3{
+    text-align: center;
+}
+.box-3:hover{
+    border: 2px solid gray;
+}
+.bottom-3 p{
+    font-size: 20px;
+}
+
+.box-4{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-4 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-4{
+    text-align: center;
+}
+.box-4:hover{
+    border: 2px solid gray;
+}
+.bottom-4 p{
+    font-size: 20px;
+}
+
+
+
+
+.third-main{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(235, 235, 235); */
+}
+.third-main a{
+    text-decoration: none;
+    color: rgb(3, 32, 95);
+}
+.third-main a:hover{
+    text-decoration: underline;
+}
+.box-5{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-5 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-5{
+    text-align: center;
+}
+.box-5:hover{
+    border: 2px solid gray;
+}
+.bottom-5 p{
+    font-size: 20px;
+}
+
+.box-6{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-6 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-6{
+    text-align: center;
+}
+.box-6:hover{
+    border: 2px solid gray;
+}
+.bottom-6 p{
+    font-size: 20px;
+}
+
+.box-7{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-7 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-7{
+    text-align: center;
+}
+.box-7:hover{
+    border: 2px solid gray;
+}
+.bottom-7 p{
+    font-size: 20px;
+}
+
+.box-8{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-8 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-8{
+    text-align: center;
+}
+.box-8:hover{
+    border: 2px solid gray;
+}
+.bottom-8 p{
+    font-size: 20px;
+}
+
+
+
+
+.fourth-main{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(235, 235, 235); */
+}
+.fourth-main a{
+    text-decoration: none;
+    color: rgb(3, 32, 95);
+}
+.fourth-main a:hover{
+    text-decoration: underline;
+}
+.box-9{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-9 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-9{
+    text-align: center;
+}
+.box-9:hover{
+    border: 2px solid gray;
+}
+.bottom-9 p{
+    font-size: 20px;
+}
+
+.box-10{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-10 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-10{
+    text-align: center;
+}
+.box-10:hover{
+    border: 2px solid gray;
+}
+.bottom-10 p{
+    font-size: 20px;
+}
+
+.box-11{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-11 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-11{
+    text-align: center;
+}
+.box-11:hover{
+    border: 2px solid gray;
+}
+.bottom-11 p{
+    font-size: 20px;
+}
+
+.box-12{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid gray;
+}
+.top-12 img{
+    object-fit: contain;
+    width: 240px;
+    height: 230px;
+}
+.bottom-12{
+    text-align: center;
+}
+.box-12:hover{
+    border: 2px solid gray;
+}
+.bottom-12 p{
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(194, 16, 16);
+    color: white;
+}
+.foo-left h2{
+    margin-left: 40px;
+}
+.foo-left p{
+    margin-left: 40px;
+}
+.foo-left button{
+    background-color: red;
+    border-radius: 15px;
+    padding: 8px;
+    border: none;
+    color: white;
+    margin-left: 70px;
+}
+.foo-left button:hover{
+    background-color: rgb(139, 17, 17);
+    padding: 9px;
+}
+.foo-right{
+    margin-left: 80px;
+}
+.Follow{
+    display: flex;
+    /* padding: 30px; */
+    /* justify-content: space-evenly; */
+}.linkdin{
+    padding: 20px;
+}
+.instagram{
+    padding: 20px;
+}
+.youtube{
+    padding: 20px;
+}
+.twitter{
+    padding: 20px;
+}
+.facebook{
+    padding: 20px;
+}
+.fa-linkedin{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.fa-instagram{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.fa-youtube{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.fa-square-x-twitter{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.fa-facebook{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.last-footer{
+    background-color: rgb(126, 17, 17);
+    color: white;
+    font-size: 13px;
+    padding: 20px;
+}
+.last-footer a{
+    color: white;
+}
+.Follow a{
+    color: white;
+    text-decoration: none;
+}
+.Follow a:hover{
+    text-decoration: underline;
+}
+@media screen and  (min-width:230px) and (max-width:790px){
+    /* .bar{
+        display: flex;
+    } */
+    .fa-bars{
+        display: flex;
+        font-size: 30px;
+        color: black;
+        margin-left: 10px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .links{
+        display: none;
+    }
+    .button input{
+        margin-right: 0px;
+        width: 100px;
+    }
+    .second-main{
+        flex-direction: column;
+        margin-left: 80px;
+        background-color: white;
+    }
+    .second-main, .box-1, .box-2, .box-3, .box-4{
+        width: 80%;
+        border: none;
+    }
+    .second-main img{
+        /* margin-left: 20px; */
+        width: 100%;
+    }
+
+    .third-main{
+        flex-direction: column;
+        margin-left: 80px;
+
+    }
+    .third-main, .box-5, .box-6, .box-7, .box-8{
+        width: 80%;
+        border: none;
+    }
+    .third-main img{
+        /* margin-left: 20px; */
+        width: 100%;
+    }
+
+    .fourth-main{
+        flex-direction: column;
+        margin-left: 80px;
+
+    }
+    .fourth-main, .box-9, .box-10, .box-11, .box-12{
+        width: 80%;
+        border: none;
+    }
+    .fourth-main img{
+        /* margin-left: 20px; */
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    pre{
+        display: none;
+    }
+    .Follow{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .foo-right{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .foo-right h2{
+        margin-left: 50px;
+        font-size: 30px;
+    }
+    .foo-left h2{
+        font-size: 30px;
+        font-weight: 40px;
+    }
+    .foo-left p{
+        font-size: 20px;
+    }
+    .foo-left button{
+        margin-bottom: 40px;
+        margin-left: 150px;
+        padding: 14px;
+        width: 100px;
+    }
+    .twitter{
+        display: none;
+    }
+    .facebook{
+        display: none;
+    }
+    .linkdin{
+        margin-left: 30px;
+    }
+    .fa-linkedin{
+        margin-left: 10px;
+    }
+    .fa-instagram{
+        margin-left: 10px;
+    }
+    .fa-youtube{
+        margin-left: 10px;
+    }
+        
+}
+@media screen and  (min-width:790px) and (max-width:1100px){
+    .bar{
+        display: flex;
+    }
+    .fa-bars{
+        display: flex;
+        font-size: 30px;
+        color: black;
+        margin-left: 10px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .button input{
+        width: 150px;
+        margin-right: 0px;
+    }
+    .links{
+        display: none;
+    }
+    .box-1{
+        padding: 10px;
+        margin: 5px;
+        width: 23%;
+        border: 1px solid gray;
+    }
+    .bottom-1{
+        text-align: center;
+    }
+    .box-1:hover{
+        border: 2px solid gray;
+    }
+    .bottom-1 p{
+        font-size: 20px;
+    }
+    .top-1 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-2 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-3 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-4 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-5 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-6 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-7 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-8 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-9 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-10 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-11 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-12 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    pre{
+        display: none;
+    }
+    .Follow{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .foo-right{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .foo-right h2{
+        margin-left: 50px;
+        font-size: 30px;
+    }
+    .foo-left h2{
+        font-size: 30px;
+        font-weight: 40px;
+    }
+    .foo-left p{
+        font-size: 20px;
+    }
+    .foo-left p br{
+        display: none;
+    }
+    .foo-left button{
+        margin-bottom: 40px;
+        margin-left: 150px;
+        padding: 14px;
+        width: 100px;
+    }
+    .linkdin{
+        margin-left: 30px;
+    }
+    .fa-linkedin{
+        margin-left: 10px;
+    }
+    .fa-instagram{
+        margin-left: 10px;
+    }
+    .fa-youtube{
+        margin-left: 10px;
+    }
+}
+@media screen and  (min-width:1100px) and (max-width:1190px){
+    /* .bar{
+        display: ;
+    } */
+    .fa-bars{
+        display: flex;
+        font-size: 30px;
+        color: black;
+        margin-left: 10px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .button input{
+        width: 150px;
+        margin-right: 0px;
+    }
+    .links{
+        display: none;
+    }
+    .box-1{
+        padding: 10px;
+        margin: 5px;
+        width: 23%;
+        border: 1px solid gray;
+    }
+    .top-1 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .bottom-1{
+        text-align: center;
+    }
+    .box-1:hover{
+        border: 2px solid gray;
+    }
+    .bottom-1 p{
+        font-size: 20px;
+    }
+    .top-1 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-2 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-3 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-4 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-5 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-6 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-7 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-8 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-9 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-10 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-11 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-12 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    
+ 
+    .footer{
+        flex-direction: column;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    pre{
+        display: none;
+    }
+    .Follow{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .foo-right{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .foo-right h2{
+        margin-left: 50px;
+        font-size: 30px;
+    }
+    .foo-left h2{
+        font-size: 30px;
+        font-weight: 40px;
+    }
+    .foo-left p{
+        font-size: 20px;
+    }
+    .foo-left p br{
+        display: none;
+    }
+    .foo-left button{
+        margin-bottom: 40px;
+        margin-left: 150px;
+        padding: 14px;
+        width: 100px;
+    }
+    .linkdin{
+        margin-left: 30px;
+    }
+    .fa-linkedin{
+        margin-left: 10px;
+    }
+    .fa-instagram{
+        margin-left: 10px;
+    }
+    .fa-youtube{
+        margin-left: 10px;
+    }
+}
+@media screen and  (min-width:1190px) and (max-width:1890px){
+    /* .bar{
+        display: ;
+    } */
+    .fa-bars{
+        display: flex;
+        font-size: 30px;
+        color: black;
+        margin-left: 10px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .button input{
+        width: 150px;
+        margin-right: 0px;
+    }
+    .links{
+        display: none;
+    }
+    .box-1{
+        padding: 10px;
+        margin: 5px;
+        width: 23%;
+        border: 1px solid gray;
+    }
+    .top-1 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .bottom-1{
+        text-align: center;
+    }
+    .box-1:hover{
+        border: 2px solid gray;
+    }
+    .bottom-1 p{
+        font-size: 20px;
+    }
+    .top-1 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-2 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-3 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-4 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-5 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-6 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-7 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-8 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-9 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-10 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-11 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .top-12 img{
+        object-fit: contain;
+        width: 100%;
+    }
+    
+ 
+    .footer{
+        flex-direction: column;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    pre{
+        display: none;
+    }
+    .Follow{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .foo-right{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .foo-right h2{
+        margin-left: 50px;
+        font-size: 30px;
+    }
+    .foo-left h2{
+        font-size: 30px;
+        font-weight: 40px;
+    }
+    .foo-left p{
+        font-size: 20px;
+    }
+    .foo-left p br{
+        display: none;
+    }
+    .foo-left button{
+        margin-bottom: 40px;
+        margin-left: 150px;
+        padding: 14px;
+        width: 100px;
+    }
+    .linkdin{
+        margin-left: 30px;
+    }
+    .fa-linkedin{
+        margin-left: 10px;
+    }
+    .fa-instagram{
+        margin-left: 10px;
+    }
+    .fa-youtube{
+        margin-left: 10px;
+    }
+    
+}
